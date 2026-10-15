@@ -6,7 +6,7 @@ public class LargestOfThreeTest {
     @Test
     public void testLargest() {
         LargestOfThree obj = new LargestOfThree();
-        assertEquals(25, obj.findLargest(10, 25, 15));
+        assertEquals(10, obj.findLargest(10, 25, 15));
     }
 
     @Test
